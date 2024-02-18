@@ -1,0 +1,1 @@
+The first rule of bash is you don't talk about bash.
