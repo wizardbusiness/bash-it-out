@@ -8,7 +8,7 @@ two_sum() {
     key=$(($1 - ${array[i]}))
     if [[ -v cache[$key] ]]; then
       echo "${cache[$key]}, $i"
-      return ${cache[$key]}
+      return "${cache[$key]}, $i"
     else
       cache[${array[$i]}]=$i
     fi
